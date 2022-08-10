@@ -7,3 +7,48 @@
       Tip:提交问卷后即可获得二维码，不要忘记扫码进群！
   </view>
 </view>
+<view class="divide-line">
+  ----------------------------------------
+</view>
+<view class="question-part">
+  <view class="completion">
+    <view class="question">
+      1.您的姓名？
+    </view>
+    <input value="" class="completion-box"></input>
+  </view>
+  <view class="radio-part">
+    <view class="completion">
+      <view class="question">
+        (单选题)2.您的性别？
+      </view>
+      <radio-group class="rgroup">
+        <radio class="radio-1">
+          男
+        </radio>
+        <radio class="radio-2">
+          女
+        </radio>
+      </radio-group>
+    </view>
+   </view>
+  <view class="completion">
+    <view class="question">
+      3.(多选题)您的爱好有哪些？
+    </view>
+    <checkbox-group class="cgroup">
+      <checkbox class="check-box">
+        唱
+      </checkbox>
+      <checkbox class="check-box">
+        跳
+      </checkbox>
+      <checkbox class="check-box">
+        Rap
+      </checkbox>
+      <checkbox class="check-box">
+        篮球
+      </checkbox>
+    </checkbox-group>
+  </view>
+</view>

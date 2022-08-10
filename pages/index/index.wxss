@@ -15,6 +15,58 @@
   position:relative;
   font-size:small;
   width:85vw;
-  margin-top: 30rpx;
+  margin-top: 50rpx;
   margin-left: 55rpx;
+}
+.divide-line{
+  text-align: center;
+  color:#bebebe;
+}
+.question-part{
+  height: 820rpx;
+  width:80xw;
+  margin-top: 50rpx;
+}
+.completion{
+  height: 15vh;
+  margin-top: 20rpx;
+}
+.question{
+  margin-left: 50rpx;
+}
+.question::before{
+  content:"*";
+  position: relative;
+  font-size: 40rpx;
+  color: red;
+}
+.completion-box{
+  width: 85vw;
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+  border: #bebebe solid 2rpx;
+  height: 6vh;
+}
+.radio-1,
+.radio-2{
+  border: #bebebe solid 2rpx;
+  width:42vw;
+  height:6vh;
+  line-height: 65rpx;
+}
+.rgroup{
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+}
+.cgroup{
+  display: flex;
+  flex-direction: column;
+}
+.check-box{
+  border: #bebebe 2rpx solid;
+  width:85vw;
+  height: 6vh;
+  margin-left: 49rpx;
+  margin-top: 10rpx;
+  line-height: 65rpx;
 }
