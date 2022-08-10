@@ -94,3 +94,6 @@
 .text3{
   margin-top:30rpx;
 }
+.commit-area{
+  display:flex;
+}
