@@ -1,1 +1,9 @@
 <!--index.wxml-->
+<view class="head-container">
+  <view class="title">
+      测试版问卷调查
+  </view>
+  <view class="tip">
+      Tip:提交问卷后即可获得二维码，不要忘记扫码进群！
+  </view>
+</view>
