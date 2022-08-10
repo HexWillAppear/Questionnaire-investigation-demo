@@ -52,3 +52,14 @@
     </checkbox-group>
   </view>
 </view>
+<view class="commit-area">
+  <button style="margin-top: 20rpx;" type="primary">
+    提交
+  </button>
+</view>
+<view class="buttom-bar">
+    <image src="../star.png"  style="width: 73rpx; height: 68rpx; display: inline-block; box-sizing: border-box; margin-top: 20rpx;margin-left: 20vw;"></image>
+    <text class="text1">问卷星</text>
+    <text class="text2">提供技术支持</text>
+    <text class="text3">举报</text>
+</view>

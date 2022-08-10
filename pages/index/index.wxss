@@ -23,13 +23,13 @@
   color:#bebebe;
 }
 .question-part{
-  height: 820rpx;
+  height: 900rpx;
   width:80xw;
   margin-top: 50rpx;
 }
 .completion{
   height: 15vh;
-  margin-top: 20rpx;
+  margin-top: 50rpx;
 }
 .question{
   margin-left: 50rpx;
@@ -43,7 +43,7 @@
 .completion-box{
   width: 85vw;
   margin-left: 50rpx;
-  margin-top: 20rpx;
+  margin-top: 50rpx;
   border: #bebebe solid 2rpx;
   height: 6vh;
 }
@@ -53,6 +53,7 @@
   width:42vw;
   height:6vh;
   line-height: 65rpx;
+  margin-top: 30rpx;
 }
 .rgroup{
   margin-top: 20rpx;
@@ -61,6 +62,7 @@
 .cgroup{
   display: flex;
   flex-direction: column;
+  margin-top: 30rpx;
 }
 .check-box{
   border: #bebebe 2rpx solid;
@@ -69,4 +71,26 @@
   margin-left: 49rpx;
   margin-top: 10rpx;
   line-height: 65rpx;
+}
+.buttom-bar{
+  display: flex;
+  margin-top: 40rpx;
+  background-color: #e3e3e3;
+  height: 8vh;
+}
+.text1{
+  color: #595959;
+  font-weight: 560;
+}
+.text3{
+  color:#595959;
+  margin-left: 70rpx;
+}
+.text2{
+  color: #262626;
+}
+.text1,
+.text2,
+.text3{
+  margin-top:30rpx;
 }
